@@ -1,0 +1,27 @@
+.card_wrapper {
+    border: 1px solid #f2f2f5;
+    width: 300px;
+    cursor: pointer;
+}
+
+.product_image {
+    width: 100%;
+}
+
+.product_data {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.product_price {
+    color: forestgreen;
+    font-size: large;
+}
+
+@media only screen and (max-width: 500px) {
+  .card_wrapper {
+    width: 100%;
+  }
+}
